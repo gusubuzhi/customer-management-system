@@ -1,0 +1,7 @@
+{
+  "name": "sample-echo-followup",
+  "version": "1.1.0",
+  "private": true,
+  "description": "样有回音 · 客户打样跟进",
+  "scripts": { "start": "node server.cjs", "test": "node --test tests/*.test.cjs" }
+}

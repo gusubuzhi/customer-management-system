@@ -1,0 +1,37 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.openai/
+.codex/
+.agents/
+
+# Dependencies and runtime output
+node_modules/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Customer imports, databases, exports and backups
+data/
+backups/
+exports/
+uploads/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sql
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*backup*.json
+*备份*.json
+*.zip
+*.tar.gz
